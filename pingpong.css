@@ -1,0 +1,48 @@
+#container{
+    position:relative;
+}
+body{
+    /*background-image: linear-gradient(rgb(235, 158, 171),rgb(218, 103, 218));*/
+    background-color:black; 
+}
+#ball{
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    background-color: red;
+    position:fixed;
+    top:20px;
+    left: 50%;
+}
+#r1,#r2{
+    height:20px;
+    width:150px;
+    position:fixed;
+    left:48%;
+    color:black;
+    text-align: center;
+    font-weight: bold;
+    border-radius:25px;
+}
+#r1{
+    top:0px;
+   background-color:white; 
+}
+#r2{
+    bottom:0px;
+    background-color:white;
+}
+#al{
+    height:180px;
+    width:100vw;
+    position:fixed;
+    top:40vh;
+    background-color:white;
+    color:black; 
+}
+#al h2{
+   /* position:fixed;
+    left:30vw;*/
+    text-align:center;
+    vertical-align: center;
+}
